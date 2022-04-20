@@ -1,0 +1,40 @@
+{
+  "name": "error-handling",
+  "version": "1.0.0",
+  "description": "sample error handling implementation in node Js",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev":"nodemon index.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coduori/node-error-handling.git"
+  },
+  "keywords": [
+    "error",
+    "handling",
+    "\"global",
+    "error",
+    "handling",
+    "in",
+    "node",
+    "Js\""
+  ],
+  "author": "Oduori Oranga",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coduori/node-error-handling/issues"
+  },
+  "homepage": "https://github.com/coduori/node-error-handling#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
